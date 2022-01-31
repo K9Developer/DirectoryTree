@@ -1401,11 +1401,11 @@ def check_tabs(path):
         return len(Path(path).parents)
 
 
-# start_folder = input(f'Folder {Text.Color.light_green_2}>>>{Text.Style.Reset} ')
+start_folder = input(f'Folder {Text.Color.light_green_2}>>>{Text.Style.Reset} ')
 
 
 start(
-    file="",
+    file=start_folder,
     show_file_fullname=True,
     all_directory=True,
     show_type=True,
